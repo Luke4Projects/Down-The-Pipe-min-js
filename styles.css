@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+html,body {
+    margin: 0;
+    background-image: url("data/img/menu.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+canvas {
+    position: absolute;
+}
+
+#menu {
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#main-text {
+    font-size: 80px;
+}
+#score-text {
+    font-size: 30px;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    background-color: greenyellow;
+    border: none;
+    font-size: 30px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: rgb(104, 167, 11);
+    font-size: 33;
+}
+
+#score-display {
+    position: absolute;
+    font-size: 50px;
+    font-family: Mukta;
+}

@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js" integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Down The Pipe</title>
+</head>
+<body>
+    <div class="gamec"></div>
+    
+        <canvas id="canv" width=600 height=400>Your browser does not support the canvas element.</canvas>
+        <div id="menu">
+
+            <div id="main-menu">
+                <div id="main-text">Down The Pipe</div>
+                <button onclick="main();">Play</button>
+            </div>
+
+            <div id="dead-menu" style="display: none;">
+                <div id="main-text">Game Over</div>
+                <div id="score-text">Score: 0</div>
+                <button onclick="location.reload();">Play again</button>
+            </div>
+
+        </div>
+
+        <div id="score-display" style="display:none;">Score: 0</div>
+
+
+    </div>
+
+    <script src="min.js"></script>
+</body>
+</html>
